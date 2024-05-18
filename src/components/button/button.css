@@ -1,0 +1,43 @@
+.btn1, .btn2 {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn1 {
+    background: linear-gradient(to right, #FF5137, #FF2F6D, #FF395A);
+    color: #fff;
+  }
+  
+  .btn2 {
+    width: 150px;
+    background: linear-gradient(to right, #FF5137, #FF2F6D, #FF395A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, #FF5137, #FF2F6D, #FF395A);
+    border-image-slice: 1;
+    box-shadow: 0 0 0 0.5px #FF5137, 0 0 0 0.5px #FF2F6D, 0 0 0 0.5px #FF395A;
+  }
+  
+
+  @media (max-width: 768px) {
+    .btn1, .btn2 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    
+  }
+  
+  @media (max-width: 480px) {
+  
+    .btn1, .btn2 {
+      font-size: 12px;
+    }
+  }
+  
